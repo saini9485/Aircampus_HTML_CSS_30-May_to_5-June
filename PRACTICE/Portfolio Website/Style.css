@@ -12,7 +12,7 @@ a{
     height: 100vh;
     /*background: url(IMG_20211125_103026.jpg);*/
     background-size: cover;
-    background-color: aquamarine;
+    background-color: rgb(71, 8, 231);
 }
 nav{
     display: flex;
