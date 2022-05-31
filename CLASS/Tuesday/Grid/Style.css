@@ -1,0 +1,30 @@
+
+       .item{
+             border: 1px solid #333;
+             background-color: #777;
+             color: yellow;
+         }
+         .container{
+             display: grid;
+             /* grid-auto-flow: row; */
+             /* grid-auto-flow: column; */
+             grid-template-columns: 100px 200px 300px;
+             /* grid-template-rows: 200px 150px ; */
+             /* grid-template: 50px 100px / 200px 300px; */
+             /* grid-auto-rows: 75px 200px; */
+             grid-auto-columns: 50px 100px;
+
+         }
+         /* .item1{
+
+         }
+         .item2{
+             
+        }
+        .item3{
+             
+        }
+        .item4{
+
+        } */
+    /*

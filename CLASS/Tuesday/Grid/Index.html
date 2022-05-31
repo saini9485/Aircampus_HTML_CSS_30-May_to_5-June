@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grid Layout</title>
+    <link rel="styelsheet" href="Style.css">
+      <style>
+       .item{
+             border: 1px solid #333;
+             background-color: #777;
+             color: rgb(247, 208, 10);
+         }
+         .container{
+             display: grid;
+             /* grid-auto-flow: row; */
+             /* grid-auto-flow: column; */
+             grid-template-columns: 100px 200px  ;
+              grid-template-rows: 50px 100px ; 
+             /* grid-template: 50px 100px / 200px 300px; 
+              grid-auto-rows: 75px 200px; 
+             grid-auto-columns: 50px 100px;*/
+             grid-template-areas: 
+             "header header"
+             " content sidebar"
+             " content sidebar"
+             "footer footer "
+             
+                   
+             
+
+         }
+         .item4{
+             grid-column-start:1 ;
+             grid-column-end: 3;
+         }
+          .item1{
+            grid-area: footer;
+            background-color: aqua;
+
+         }
+         .item2{
+             grid-area: sidebar;
+             background-color: blue;
+        }
+        .item3{
+            grid-area: header;
+            background-color: green
+             
+        }
+        .item7{
+            grid-area: content;
+            background-color: red;
+
+        } 
+    </style>
+</head>
+<body>
+     <h1> Lets start with Grid</h1>
+       <div class="container"> 
+            <div class="item item1">1</div>
+            <div class="item item2">2</div>
+            <div class="item item3">3</div>
+
+            <div class="item item4">4</div>
+            <div class="item item5">5</div>
+            <div class="item item6">6</div>
+
+            <div class="item item7">7</div>
+            <div class="item item8">8</div>
+
+            <div class="item item9">9</div>
+            <div class="item item10">10</div>
+            <div class="item item9">11</div>
+            <div class="item item10">12</div>
+            <div class="item item9">13</div>
+            <div class="item item10">14</div>
+       </div>
+
+</body>
+</html>
