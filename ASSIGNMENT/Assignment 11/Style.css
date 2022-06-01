@@ -64,38 +64,39 @@ nav{
     
 }
 .sidekick1{
-    width:50px;
-    height:50px;
-    border: 2px solid blue;
+    width:80px;
+    height:80px;
+    border: 3px solid blue;
     padding: 10px;
-    background-color: rgb(10, 215, 242);
+    background-color: rgb(10, 242, 33);
     margin: 5px;
     display: flex;
     align-items: center;
 }
 .sidekick2{
-    width:50px;
-    height:50px;
+    width:80px;
+    height:80px;
     border: 2px solid blue;
     padding: 10px;
-    background-color: rgb(8, 204, 248);
+    background-color: rgb(8, 241, 66);
     margin: 5px;
     display: flex;
     align-items: center;
+    justify-content: end;
 }
 .sidekick3{
-    width:50px;
-    height:50px;
+    width:80px;
+    height:80px;
     border: 2px solid blue;
     padding: 10px;
-    background-color: rgb(5, 207, 242);
+    background-color: rgb(5, 242, 60);
     margin: 5px;
     display: flex;
     align-items: center;
 }
 .sidekick4{
-    width:50px;
-    height:50px;
+    width:80px;
+    height:80px;
     border: 2px solid blue;
     padding: 10px;
     background-color: rgb(12, 243, 74);
@@ -104,8 +105,8 @@ nav{
     align-items: center;
 }
 .sidekick5{
-    width:50px;
-    height:50px;
+    width:80px;
+    height:80px;
     border: 2px solid blue;
     padding: 10px;
     background-color: rgb(8, 235, 65);
@@ -114,18 +115,18 @@ nav{
     align-items: center;
 }
 .sidekick6{
-    width:50px;
-    height:50px;
+    width:80px;
+    height:80px;
     border: 2px solid blue;
     padding: 10px;
-    background-color: rgb(9, 194, 245);
+    background-color: rgb(6, 245, 42);
     margin: 5px;
     display: flex;
     align-items: center;
 }
 .hero{
-    width:50px;
-    height:50px;
+    width:80px;
+    height:80px;
     border: 2px solid blue;
     padding: 10px;
     background-color: rgb(246, 114, 6);
@@ -133,3 +134,62 @@ nav{
     display: flex;
     align-items: center;
 }
+.section2{
+    clear: left;
+    text-align: center;
+    margin-top: 200px;
+    position: relative;
+}
+.box4{
+    background-color: rgb(230, 245, 234);
+    width: 250px;
+    height: 250px;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 20px 20px 20px 250px;
+    
+}
+.box5{
+    background-color: rgb(230, 245, 234);
+    width: 250px;
+    height: 250px;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 20px 20px 20px 250px;
+    
+}
+.box6{
+    background-color: rgb(230, 245, 234);
+    width: 250px;
+    height: 250px;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 20px 20px 20px 250px;
+    
+}
+.box7{
+    background-color: rgb(230, 245, 234);
+    width: 250px;
+    height: 250px;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 20px 20px 20px 250px;
+    
+}
+.side{
+    width:80px;
+    height:80px;
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: rgb(8, 235, 65);
+    margin: 5px;
+    display: flex;
+    align-items: center;
