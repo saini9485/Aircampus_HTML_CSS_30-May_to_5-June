@@ -193,3 +193,89 @@ nav{
     margin: 5px;
     display: flex;
     align-items: center;
+}
+.flex{
+    clear: left;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 192, 187);
+    justify-content: center;
+    align-items: center;
+    
+}
+.item{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(212, 182, 146);
+    border: 2px solid purple;
+}
+.flex2{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: rgb(157, 193, 40);
+    flex-wrap: wrap;
+}
+
+.jar{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(212, 182, 146);
+    border: 2px solid purple;
+}
+
+
+
+/*====================Second flex====================*/
+
+.flex3{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-color: rgb(45, 166, 177);
+      flex-wrap: wrap;
+  }
+  .bottle{
+    width: 100px;
+    height: 100px;
+    margin: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(212, 182, 146);
+    border: 2px solid purple;
+}
+#top{
+    color: brown;
+    background-color: rgb(201, 18, 158);
+    width: 40px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    height: 30px;
+}
+
+
+
+
+i{
+    color: aliceblue;
+    padding: 20px;
+    font-size: 30px;
+}
+footer{
+    display: flex;
+    background-color: rgb(35, 13, 241);
+    justify-content: center;
+
+}
