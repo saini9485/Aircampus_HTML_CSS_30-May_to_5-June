@@ -17,11 +17,6 @@ a{
     text-decoration: none;
     
 }
-.logo{
-    max-height: 100px;
-    border-radius: 500px;
-    padding-top: 0%;
-}
 nav{
     width: 100%;
     display: flex;
@@ -35,6 +30,7 @@ nav ul li{
     list-style: none;
     margin: 20px;
     font-size: 200%;
+   
 }
 nav ul li a{
     text-decoration: none;
@@ -43,6 +39,9 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: #f2032b;
+}
+.navbar{
+    justify-content: center;
 }
 .btn{
     color:black
@@ -54,11 +53,12 @@ nav ul li a:hover{
     display: inline-block;
     font-weight: 500;
     transition: all .4s ease-in-out;
-    background-size: 152% 100%;
     background: #f5eaeb;
     border: 2px solid #fd4766;
-    margin:5px;
+    margin:5px;*/
+    
 }
+
 
 .btn:hover{
     background: transparent;

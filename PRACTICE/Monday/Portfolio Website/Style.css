@@ -104,3 +104,9 @@ nav ul li a:hover:after{
     margin-top: 25px;
     margin-bottom: 30px;
 }
+footer{
+    display: flex;
+    background-color: rgb(51, 80, 9);
+    justify-content: center;
+
+}
