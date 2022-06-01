@@ -23,44 +23,113 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding:20px 0%;
+    background-color: aqua;
+    font-size: 200%;
 
 }
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 20px;
-    font-size: 200%;
-   
+.section1{
+    text-align: center;
 }
-nav ul li a{
-    text-decoration: none;
-    color:black
-    position: relative;
-}
-nav ul li a:hover{
-    color: #f2032b;
-}
-.navbar{
-    justify-content: center;
-}
-.btn{
-    color:black
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 16px 40px;
-    border-radius: 500px;
-    display: inline-block;
-    font-weight: 500;
-    transition: all .4s ease-in-out;
-    background: #f5eaeb;
-    border: 2px solid #fd4766;
-    margin:5px;*/
+.box1{
+    background-color: rgb(230, 245, 234);
+    width: 250px;
+    height: 250px;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 20px 20px 20px 250px;
     
 }
-
-
-.btn:hover{
-    background: transparent;
-    border-color: #f00b25;
-    color: #0a25ee;
+.box2{
+    background-color: rgb(233, 243, 243);
+    width: 250px;
+    height: 250px;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 20px 20px 20px 250px;
+    
+}
+.box3{
+    background-color: rgb(245, 250, 250);
+    width: 250px;
+    height: 250px;
+    border: 2px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 20px 20px 20px 250px;
+    
+}
+.sidekick1{
+    width:50px;
+    height:50px;
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: rgb(10, 215, 242);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+.sidekick2{
+    width:50px;
+    height:50px;
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: rgb(8, 204, 248);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+.sidekick3{
+    width:50px;
+    height:50px;
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: rgb(5, 207, 242);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+.sidekick4{
+    width:50px;
+    height:50px;
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: rgb(12, 243, 74);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+.sidekick5{
+    width:50px;
+    height:50px;
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: rgb(8, 235, 65);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+.sidekick6{
+    width:50px;
+    height:50px;
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: rgb(9, 194, 245);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+.hero{
+    width:50px;
+    height:50px;
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: rgb(246, 114, 6);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
