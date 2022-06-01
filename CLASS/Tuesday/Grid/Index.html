@@ -15,27 +15,39 @@
              display: grid;
              /* grid-auto-flow: row; */
              /* grid-auto-flow: column; */
-             grid-template-columns:  500px 800px  ;
-              grid-template-rows: 300px 500px 100px ; 
+             grid-template-columns:  300px 500px  ;
+              grid-template-rows: 200px 300px 100px ;
+              /*grid-gap: 20px;
+              column-gap: 10px;*/
+              /*grid-template-rows: minmax(50px,auto); 
+              /*it will be take automatic space accordig the content*/
+              /*grid-template-columns: minmax(100px, auto);
              /* grid-template: 50px 100px / 200px 300px; 
               grid-auto-rows: 75px 200px; 
              grid-auto-columns: 50px 100px;*/
+
              grid-template-areas: 
              "header header"
              " content sidebar"
              "footer footer "
-             /* 1.how to give widht and of footer*/
+             /* 1.how to give widht and hight of footer*/
+             /*grid-templete-columns:
+             100px 2fr 1fr 50px;*/
+             /*grid-templete-columns:
+            100px repeat(4,1fr) 100px;*/
                    
              
 
          }
          .item4{
-             grid-column-start:1 ;
-             grid-column-end: 3;
+            /* grid-column-start:1 ;
+             grid-column-end: 3;*/
+             /*grid-row: span ;  /*how much area you want to acuupied*/
          }
           .item1{
             grid-area: footer;
             background-color: aqua;
+            /*grid-row:1/-1; start and end shortcut*/
 
          }
          .item2{
@@ -57,11 +69,13 @@
 <body>
      <h1> Lets start with Grid</h1>
        <div class="container"> 
-            <div class="item item1">1 footer </div>
+            <div class="item item1">1 footer  </div>
             <div class="item item2">2 section</div>
-            <div class="item item3">3 header</div>
+            <div class="item item3">3 header hi guys how are you </div>
             <div class="item item7">7 sidebar</div>
             <div class="item item4">4 </div>
+            <div class="item item4">5 </div>
+            <div class="item item4">6 </div>
            
         
             
