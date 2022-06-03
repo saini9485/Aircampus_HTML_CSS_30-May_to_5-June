@@ -1,0 +1,73 @@
+.Grid-container {
+    height: 100vh;
+    /*i can't understand why 100% is not working*/
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    grid-template-rows: auto auto 1fr auto;
+    /*1fr means whatever is the remaing space*/
+    grid-template-areas:
+        "header header"
+        "nav aside"
+        "main aside"
+        "footer footer";
+
+}
+
+.header {
+    grid-area: header;
+    background-color: rgb(58, 58, 186);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    font-size: 30px;
+}
+
+.main {
+    grid-area: main;
+    margin: 12px;
+
+}
+.article{
+    font-size: 30px;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: rgb(54, 15, 210);
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}

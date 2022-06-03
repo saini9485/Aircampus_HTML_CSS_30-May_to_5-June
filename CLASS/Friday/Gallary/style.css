@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    /*why i write this  */
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat
+        /*when i am using rows why then this is not working*/
+        (auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        display: inline;
+       /* grid-auto-flow: column;*/
+       
+}
+
+img {
+    border: 1px solid red;
+}
+/*auto-fill,dence*/

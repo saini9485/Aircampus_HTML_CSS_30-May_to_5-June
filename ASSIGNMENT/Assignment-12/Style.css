@@ -6,21 +6,24 @@
 
 nav{
     display: flex;
-    height: 60px;
+    height: 100px;
     background-color: #272727;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     top: 0;
     position: sticky;
+    
 }
 
 .logo{
     display: flex;
+    
 }
 
 .logo img{
     padding: 10px;
     width: 150px;
+    
 }
 
 .iconsMobile{
@@ -30,20 +33,22 @@ nav{
 .search{
     display: flex;
     background-color: white;
-    width: 35vw;
-    height: 36px;
-    border-radius: 5px;
-    margin: 20px;
+    width: 70vw;
+    height: 70px;
+    border-radius: 50px;
+    margin: 50px;
+    
 }
 
 .search input{
     height: 36px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 40px;
     width: 100%;
-    padding: 0 16px;
+    padding: 15px 16px;
     border: 0;
     outline: none;
+    
 }
 
 .btn{
@@ -54,19 +59,19 @@ nav{
 }
 
 .icons{
-    margin: 10px;
+    margin: 50px;
 }
 
 .btn img{
-    width: 22px;
+    width: 50px;
 }
 
 #profile img{
-    width: 30px;
+    width: 50px;
 }
 
 #cart img{
-    width: 40px;
+    width: 50px;
 }
 
 .items{
@@ -92,8 +97,12 @@ nav{
 }
 
 footer{
+    display: flex;
     background-color: #272727;
     color: white;
-    text-align: center;
+    justify-content: center;
     padding: 25px;
+    margin: 10px;
+    
+    
 }
