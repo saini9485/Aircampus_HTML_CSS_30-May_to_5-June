@@ -52,9 +52,13 @@
 
 }
 .article{
+    display: float;
+    float: left;
     font-size: 30px;
 }
-
+.photo{
+    width: 500px;
+}
 .aside {
     grid-area: aside;
     background-color: rgb(54, 15, 210);
